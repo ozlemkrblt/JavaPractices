@@ -1,7 +1,9 @@
+package KDVCalculator;
+
 import java.util.Scanner;
 public class KDVCalculator {
     public static void main(String[] args) {
-        double fiyat, kdvOran = 0.18, kdv, kdvTutar, kdvliTutar;
+        double fiyat, kdv, kdvTutar, kdvliTutar;
 
         Scanner input = new Scanner(System.in);
 
@@ -11,8 +13,8 @@ public class KDVCalculator {
         boolean cond = fiyat <= 1000;
 
         kdv = cond ? 0.18 : 0.08;
-        kdvTutar = kdv * urun;
-        kdvliTutar = kdvTutar + urun;
+        kdvTutar = kdv * fiyat;
+        kdvliTutar = kdvTutar + fiyat;
 
         System.out.println("Ürünün KDV'siz Fiyatı : " + fiyat);
         System.out.println("KDV Oranı : " + kdv);
