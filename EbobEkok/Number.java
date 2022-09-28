@@ -45,4 +45,20 @@ public class Number {
         
     }
 
+    public void fibonacci(){
+        int f[] = new int[n+2]; 
+        int i;
+      
+        f[0] = 0;
+        f[1] = 1;
+     
+        for (i = 2; i <= n+1; i++){
+
+            f[i] = f[i-1] + f[i-2];
+            System.out.println(f[i-2]);
+        }
+      
+
+    }
+
 }
