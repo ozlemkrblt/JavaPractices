@@ -1,7 +1,5 @@
 package Elmas;
 
-import java.util.Scanner;
-
 public class Elmas {
     public static void main(String[] args)
     {
