@@ -13,5 +13,6 @@ public class ArtikYil {
             System.out.println("Artık yil.");
         else
             System.out.println("Artık yil değil.");
+        sc.close();
     }
 }
