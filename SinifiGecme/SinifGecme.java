@@ -27,5 +27,6 @@ public class SinifGecme {
         } else {
             System.out.println("Geçerli not giriniz");
         }
+        scanner.close();
     }
 }

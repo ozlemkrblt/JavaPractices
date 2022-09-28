@@ -1,9 +1,5 @@
 package CinZodyagi;
 
-<<<<<<< HEAD
-public class CinZodyagi {
-    
-=======
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -40,6 +36,6 @@ public class CinZodyagi {
             default -> burc="" ;
         }
         System.out.println("Çin Zodyağı Burcunuz : " + burc);
+        scanner.close();
     }
->>>>>>> 3e6286a0b3b02156be67de9be4afbc878ad20bce
 }
