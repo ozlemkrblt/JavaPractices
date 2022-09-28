@@ -21,5 +21,7 @@ public class Etkinlik {
         }
         System.out.println("Size en uygun etkinlik: " + etkinlik + "!"
         );
+
+        input.close();
     }
 }

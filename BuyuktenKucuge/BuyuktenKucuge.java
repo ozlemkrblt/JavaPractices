@@ -1,4 +1,5 @@
 package BuyuktenKucuge;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -8,31 +9,27 @@ public class BuyuktenKucuge {
 
     public static void main(String[] args) {
 
-        int s1,s2,s3;
-        List<Integer> sayilar=new ArrayList<Integer>();
+        int s1, s2, s3;
+        List<Integer> sayilar = new ArrayList<Integer>();
 
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Lütfen birinci sayıyı giriniz:");
-        s1=scanner.nextInt();
+        s1 = scanner.nextInt();
         sayilar.add(s1);
 
         System.out.print("Lütfen ikinci sayıyı giriniz:");
-        s2=scanner.nextInt();
+        s2 = scanner.nextInt();
         sayilar.add(s2);
 
         System.out.print("Lütfen üçüncü sayıyı giriniz:");
-        s3=scanner.nextInt();
+        s3 = scanner.nextInt();
         sayilar.add(s3);
 
-        Collections.sort(sayilar,Collections.reverseOrder());
-        
-            System.out.print(sayilar.toString());
+        Collections.sort(sayilar, Collections.reverseOrder());
 
-        
+        System.out.print(sayilar.toString());
 
-
-
+        scanner.close();
     }
-
 
 }

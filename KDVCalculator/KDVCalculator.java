@@ -5,10 +5,10 @@ public class KDVCalculator {
     public static void main(String[] args) {
         double fiyat, kdv, kdvTutar, kdvliTutar;
 
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ürün Fiyatını Giriniz:");
-        fiyat = input.nextDouble();
+        fiyat = scanner.nextDouble();
 
         boolean cond = fiyat <= 1000;
 
@@ -21,6 +21,6 @@ public class KDVCalculator {
         System.out.println("Ürünün KDV'li Fiyatı : " + kdvliTutar);
 
         System.out.print("KDV Tutarı : " + kdvTutar);
-
+        scanner.close();
     }
 }

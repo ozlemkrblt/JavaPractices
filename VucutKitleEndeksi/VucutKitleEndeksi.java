@@ -19,6 +19,7 @@ public class VucutKitleEndeksi {
 
         vki= kilo/(boy*boy);
         System.out.println("Vücut Kitle Endeksiniz:" + vki);
+        scanner.close();
     }
 
 }

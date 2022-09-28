@@ -28,5 +28,6 @@ public class NotOrtalamasi {
         ort = (mat + fizik + kimya + turkce + tarih + muzik)/6;
         String output = (ort > 60) ? "Sınıfı geçti" : "Sınıfta Kaldı";
         System.out.println("Ortalamanız: "+ort+"\nGeçme Durumu: "+output);
+        input.close();
     }
 }

@@ -17,5 +17,6 @@ public class Daire {
         daireAlani = (pi * (r * r) * a) / 360;
 
         System.out.println("Alan " + daireAlani);
+        input.close();
     }
 }

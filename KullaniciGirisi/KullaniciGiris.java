@@ -4,7 +4,6 @@ girdiği şifrenin hatalı girdiği ve unuttuğu şifre ile aynı olmaması gere
 "Şifre oluşturulamadı, lütfen başka şifre giriniz." sorun yoksa "Şifre oluşturuldu" yazan programı yazınız.
  */
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class KullaniciGiris {
@@ -51,6 +50,6 @@ public class KullaniciGiris {
                 System.out.println("Başarılı Giriş!");
             }
 
-
+            input.close();
     }
 }

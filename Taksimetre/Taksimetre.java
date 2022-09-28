@@ -16,6 +16,8 @@ public class Taksimetre {
         boolean minTutar = (tutar <= 20) & (tutar > 0);
         tutar = minTutar ? 20 : tutar;
         System.out.println("Toplam Tutar: " + tutar);
+
+        input.close();
     }
 }
 

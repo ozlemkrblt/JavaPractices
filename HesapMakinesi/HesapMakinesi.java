@@ -47,7 +47,9 @@ public class HesapMakinesi {
 
 
             }
-
+            input.close();
+            input1.close();
+            input2.close();
         }
 
     }

@@ -45,5 +45,6 @@ public class ManavKasaProgrami {
         double patlicanFiyati = patlican * kg;
         total = armutFiyati+elmaFiyati + domatesFiyati+ muzFiyati+ patlicanFiyati;
         System.out.println("Toplam Tutar : "+total);
+        inp.close();
     }
 }
