@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class MaxSayi {
     public static void main(String[] args) {
-        List list= new ArrayList<Integer>();
+        List<Integer> list= new ArrayList<Integer>();
 
 
         Scanner scanner=new Scanner(System.in);
