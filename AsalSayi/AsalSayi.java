@@ -1,7 +1,5 @@
 package AsalSayi;
 
-import java.util.ArrayList;
-
 public class AsalSayi {
     public static void main(String[] args) {
       
