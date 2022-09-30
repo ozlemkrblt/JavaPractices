@@ -31,5 +31,6 @@ public class MukemmelSayi {
         } else {
             System.out.println(n + " bir mükemmel sayı değildir.");
         }
+        input.close();
     }
 }
